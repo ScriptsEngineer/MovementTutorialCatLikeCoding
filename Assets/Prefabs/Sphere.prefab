@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6568137419296139823}
   - component: {fileID: 6568137419296139816}
   - component: {fileID: 6568137419296139822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,6 +118,15 @@ MonoBehaviour:
   jumpHeight: 2
   maxAirJumps: 3
   maxGroundAngle: 40
+  maxStairsAngle: 50
+  maxSnapSpeed: 100
+  probeDistance: 1
+  probeMask:
+    serializedVersion: 2
+    m_Bits: 51
+  stairsMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!96 &6568137419296139816
 TrailRenderer:
   serializedVersion: 2
